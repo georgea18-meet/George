@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Sorting Hat</title>
+</head>
+<body>
+	<script type="text/javascript">
+		var my_array = [];
+		var i = prompt("Enter the first number:","");
+		while(i!=-1){
+			my_array.push(Number(i));
+			i = prompt("Enter another number:","");
+		}
+		my_array.sort(function(a, b){return a - b});
+		for(i=0;i<my_array.length;i++){
+			alert(my_array[i]);
+		}
+	</script>
+</body>
+</html>

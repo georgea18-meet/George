@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Loops are fun! Loops are fun! ...</title>
+</head>
+<body>
+	<script type="text/javascript">
+		var sum = 0;
+		for(var i = 0;i < 5;i++){
+			var num = prompt("Enter a number:","");
+			sum = Number(sum)+Number(num);
+		}
+		alert(sum);
+	</script>
+	<script type="text/javascript">
+		var nums = [];
+		var i = prompt("Enter the first number:","");
+		while(i!=-1){
+			nums.push(i);
+			var i = prompt('Enter another number:','');
+		}
+		for (var i = 0; i <= nums.length-1; i++) {
+			alert(Number(nums[i])*2)
+		}
+	</script>
+</body>
+</html>

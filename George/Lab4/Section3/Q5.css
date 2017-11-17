@@ -1,0 +1,21 @@
+.button{
+	height: 20px;
+	width: 60px;
+	border-style: solid;
+	border-width: 1px;
+	border-radius: 20px;
+	margin: 20px; 
+	text-align: center;
+}
+
+#rb{
+	background: rgb(255,0,0);
+}
+
+#gb{
+	background: rgb(0,255,0);
+}
+
+#bb{
+	background: rgb(0,0,255);
+}

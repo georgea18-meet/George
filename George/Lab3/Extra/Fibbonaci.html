@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Fibbonaci</title>
+	<script type="text/javascript" src="Fibbonaci.js"></script>
+</head>
+<body>
+<script type="text/javascript">
+	var n = prompt("Enter a number:","");
+	var Fibbonacis = [];
+	var string = "";
+	for(i=1;i<=n;i++){
+		Fibbonacis[i] = fibbonaci(i);
+		string = string+Fibbonacis[i]+",";
+	}
+	alert(string);
+</script>
+</body>
+</html>

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Prime numbers!</title>
+</head>
+<body>
+	<script type="text/javascript">
+		var primes=[];
+		var tar = prompt("Enter a number:","");
+		for(var i = 2; i < tar; i++){
+			var count = 0;
+			for(var f = 1; f <= i; f++){
+				if(i%f==0){
+					count++;
+				}
+			}
+			if(count==2){
+				alert(i);
+			}
+		}
+	</script>
+</body>
+</html>
